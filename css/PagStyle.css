@@ -1,3 +1,7 @@
+* {
+	user-select: none;
+}
+
 html {
 	min-height: 100%;
     position: relative;
@@ -137,6 +141,31 @@ nav > div > img {
 	top: -2rem;
 }
 
+hr {
+	width: 40%;
+	background:#0ff;
+	border-width: 1px;
+	border-color:#0ff;
+}
+
+.title1 {
+	padding: 0.3125rem;
+	width: 50%;
+    text-align: center;
+    border-radius: 1.25rem;
+    background-color:#0ff;/*143959*/
+    font-size: 2rem;
+    font-family: 'Share Tech', sans-serif;
+    margin: auto;
+}
+
+.title2 {
+	text-align: left;
+	font-family: 'Share Tech', sans-serif;
+	font-size: 2rem;
+	margin-left: 5rem;
+}
+
 article {
     padding: 0.3125rem;
     margin-top: 0.625rem;
@@ -144,8 +173,9 @@ article {
     margin-right:5%;
 }
 
-p.parrafo {
-    font-size: 1.2rem;
+p.parrafoInit {
+	font-size: 1.2rem;
+    font-family: 'Share Tech', sans-serif;
     margin-left: 1rem;
     margin-right: 1rem;
     text-align: justify;
@@ -153,13 +183,43 @@ p.parrafo {
     color: white;
 }
 
+p.parrafo {
+    font-size: 1.2rem;
+    font-family: 'Share Tech', sans-serif;
+    margin-top: -0.5rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    text-align: justify;
+    display: inline-block;
+    color: white;
+}
+
+p.pleft {
+        max-width: 50rem;
+}
+
+.imgContainer {
+        vertical-align: text-bottom;
+        display: inline-block;
+        width: 39%;
+        min-width: 10rem;
+        margin: auto;
+}
+
+img.ContentIcon {
+    display: block;
+    margin: auto;
+    width: all;
+    height: 20rem;
+}
+
 footer {
     position:absolute;
     bottom: 0rem;    
     padding: 0.3125rem 0;
     width: 100%;
-    background-color: #9a9a9a;
+    background-color: #143959;
     text-align: center;
     color: white;
-    box-shadow: inset 0px 5px #828282;
+    box-shadow: inset 0px 5px #122f48;
 }
