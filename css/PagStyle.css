@@ -24,7 +24,7 @@ Terciario: #0ff/#40ffff
 
 body {
 	margin: 0;
-    margin-bottom: 10rem;
+    margin-bottom: 5rem;
     background:#162430;
 }
 /*
@@ -160,10 +160,10 @@ hr {
 }
 
 .title2 {
-	text-align: left;
+	text-align: center;
 	font-family: 'Share Tech', sans-serif;
 	font-size: 2rem;
-	margin-left: 5rem;
+	color:#0ff;
 }
 
 article {
@@ -177,6 +177,17 @@ p.parrafoInit {
 	font-size: 1.2rem;
     font-family: 'Share Tech', sans-serif;
     margin-left: 1rem;
+    margin-right: 1rem;
+    margin-bottom: 4rem;
+    text-align: justify;
+    display: inline-block;
+    color: white;
+}
+
+p.parrafoInit0 {
+	font-size: 1.6rem;
+    font-family: 'Share Tech', sans-serif;
+    margin-left: 15rem;
     margin-right: 1rem;
     text-align: justify;
     display: inline-block;
@@ -199,8 +210,8 @@ p.parrafo {
         max-width: 50rem;
     }
 
-    p.rightAlign {
-    	float: right;
+    p.pwidth2 {
+    	max-width: 30rem;
     }
 
     .imgContainer {
@@ -233,15 +244,4 @@ img.ContentIcon {
     margin: auto;
     width: all;
     height: all;
-}
-
-footer {
-    position:absolute;
-    bottom: 0rem;    
-    padding: 0.3125rem 0;
-    width: 100%;
-    background-color: #143959;
-    text-align: center;
-    color: white;
-    box-shadow: inset 0px 5px #122f48;
 }
