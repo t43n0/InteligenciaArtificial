@@ -39,10 +39,3 @@ window.onload = function() {
 	}
 
 }
-/*
-			MenuArray[0].style.animationName = "ItemAnim";
-			MenuArray[1].style.animationName = "ItemAnim";
-			MenuArray[2].style.animationName = "ItemAnim";
-			MenuArray[0].style.animationName = "RItemAnim";
-			MenuArray[1].style.animationName = "RItemAnim";
-			MenuArray[2].style.animationName = "RItemAnim";*/
