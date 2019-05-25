@@ -1,7 +1,3 @@
-* {
-	user-select: none;
-}
-
 html {
 	min-height: 100%;
     position: relative;
@@ -15,27 +11,12 @@ html {
     display:none;
 }
 
-/*
-Colores: 
-Principal: #162430/#1c2d3c
-Secundario: #143959/#19476f
-Terciario: #0ff/#40ffff
-*/
-
 body {
 	margin: 0;
-    margin-bottom: 5rem;
+    margin-bottom: 10rem;
     background:#162430;
 }
-/*
-@font-face {
-    font-family: 'Open Sans';
-    font-style: normal;
-    font-weight: 800;
-    src: local('Open Sans ExtraBold'), local('OpenSans-ExtraBold'), url(https://fonts.gstatic.com/s/opensans/v15/mem5YaGs126MiZpBA-UN8rsOUehpOqc.woff2) format('woff2');
-    unicode-range: U+0370-03FF;
-}
-*/
+
 header {
 	margin-top: 0;
 	margin-bottom: 0;
@@ -103,20 +84,6 @@ nav > div > img {
 	height: 5rem;
 }
 
-#Cmenu {
-	position:relative;
-	background: white;
-	height: 0;
-	z-index:1;
-	width: 40%;
-	background:#143959;
-	margin: auto;
-	border-radius: 0 0 100% 100%;
-	animation-name: none;
-	animation-duration: 1s;
-	animation-fill-mode: forwards;
-}
-
 .MenuItem {
 	position:relative;
 	cursor: pointer;
@@ -164,6 +131,7 @@ hr {
 	font-family: 'Share Tech', sans-serif;
 	font-size: 2rem;
 	color:#0ff;
+	padding-top: 5rem;
 }
 
 article {
@@ -206,6 +174,21 @@ p.parrafo {
 }
 
 @media (min-width: 1339px) {
+
+	#Cmenu {
+		position:relative;
+		background: white;
+		height: 0;
+		z-index:1;
+		width: 40%;
+		background:#143959;
+		margin: auto;
+		border-radius: 0 0 100% 100%;
+		animation-name: none;
+		animation-duration: 1s;
+		animation-fill-mode: forwards;
+	}
+
     p.pwidth {
         max-width: 50rem;
     }
@@ -221,8 +204,24 @@ p.parrafo {
         width: 30%;
         margin: auto;
     }
+
 }
 @media (max-width: 1338px) {
+	
+	#Cmenu {
+		position:relative;
+		background: white;
+		height: 0;
+		z-index:1;
+		width: 80%;
+		background:#143959;
+		margin: auto;
+		border-radius: 0 0 100% 100%;
+		animation-name: none;
+		animation-duration: 1s;
+		animation-fill-mode: forwards;
+	}
+
     p.pwidth {
         max-width: 83.625rem;
     }
@@ -231,12 +230,23 @@ p.parrafo {
     	float: unset;
     }
 
+    p.parrafoInit0 {
+		font-size: 1.2rem;
+    	font-family: 'Share Tech', sans-serif;
+    	margin-left: 1rem;
+    	margin-right: 1rem;
+    	text-align: justify;
+    	display: inline-block;
+    	color: white;
+	}
+
     .imgContainer {
         vertical-align: text-bottom;
         display: flex;
         justify-content: center;
         width: 30%;
         margin: auto
+    }
 }
 
 img.ContentIcon {
@@ -244,4 +254,18 @@ img.ContentIcon {
     margin: auto;
     width: all;
     height: all;
+}
+
+footer {
+	font-size: 2rem;
+	font-family: 'Share Tech', sans-serif;
+	position:absolute;
+    bottom: 0rem;    
+    padding: 0.3125rem 0;
+    width: 100%;
+    background-color: #143959;
+    text-align: center;
+    color: white;
+    text-align: left;
+    box-shadow: inset 0px 5px #3d5161;
 }
