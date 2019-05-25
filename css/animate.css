@@ -9,15 +9,15 @@
 }
 
 @-webkit-keyframes open {
-    0% {height: 0;}
-    50% {height: 8rem;}
-    100% {height: 8rem;}
+    0% {height: 0; width: 0}
+    50% {height: 8rem; width: 40%}
+    100% {height: 8rem; width: 40%}
 }
 
 @-webkit-keyframes Ropen {
-    0% {height: 8rem;}
-    50% {height: 0;}
-    100% {height: 0;}
+    0% {height: 8rem; width: 40%}
+    50% {height: 0; width: 0}
+    100% {height: 0; width: 0}
 }
 
 @-webkit-keyframes ImgPos {
