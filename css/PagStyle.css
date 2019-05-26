@@ -197,6 +197,10 @@ p.parrafo {
     	max-width: 30rem;
     }
 
+    p.rightAlign {
+    	float: right;
+    }
+
     .imgContainer {
         vertical-align: text-bottom;
         display: inline-flex;
@@ -227,7 +231,7 @@ p.parrafo {
     }
 
     p.rightAlign {
-    	float: unset;
+    	float: right;
     }
 
     p.parrafoInit0 {
